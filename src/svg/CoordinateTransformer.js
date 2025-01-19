@@ -21,14 +21,14 @@ export class CoordinateTransformer {
 
     projectPoint(latitude, longitude) {
         const FE = 180;
-        const radius = 1;
+        const radius = this.dimensions.width / (2 * Math.PI);
         
         const latRad = this.degreesToRadians(latitude);
         const lonRad = this.degreesToRadians(longitude + FE);
         
         const x = lonRad * radius;
         const yFromEquator = radius * Math.log(Math.tan(Math.PI / 4 + latRad / 2));
-        const y = yFromEquator;
+        const y = this.dimensions.height / 2 - yFromEquator;
 
         return { x, y };
     }
