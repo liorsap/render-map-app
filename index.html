@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Routes in Rome</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.9.3/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.9.3/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <!-- Renderer Choice UI -->
+    <div class="renderer-choice">
+        <div class="choice-container">
+            <h2>Choose Rendering Method</h2>
+            <button id="svg-choice">SVG Rendering</button>
+            <button id="mapbox-choice">Mapbox Rendering</button>
+        </div>
+    </div>
+    
+    <!-- Container for SVG rendering -->
+    <div id="svg-container" class="renderer-container" style="display: none;">
+        <div class="map">
+            <img src="./assets/map.svg" alt="rome map" />
+            <svg id="taxi-map"></svg>
+        </div>
+    </div>
+
+    <!-- Container for Mapbox rendering -->
+    <div id="mapbox-container" class="renderer-container" style="display: none;">
+        <div id="map">
+        </div>
+    </div>
+
+    <!-- Container for Taxi Drivers legend -->
+    <div id="legend-container" style="display: none;">
+        <div class="legend-title">Taxi Drivers</div>
+        <div class="legend-content"></div>
+    </div>
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>
