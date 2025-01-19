@@ -1,22 +1,20 @@
-import { CoordinateTransformer } from './CoordinateTransformer.js';
-
 export class SVGPathManager {
     constructor() {
+        this.coordinateTransformer = null;
         this.svgElement = null;
     }
 
-    initialize(svgElement) {
+    initialize(svgElement, coordinateTransformer) {
         this.svgElement = svgElement;
+        this.coordinateTransformer = coordinateTransformer;
     }
 
-    createPaths(taxiData, dimensions, bounds, colors) {
+    createPaths(taxiData, colors) {
         const paths = [];
         
         taxiData.forEach(driver => {
             const pathElement = this.createPathElement(
                 driver,
-                dimensions,
-                bounds,
                 colors[driver.DriveNo]
             );
             paths.push({ driver, pathElement });
@@ -26,17 +24,14 @@ export class SVGPathManager {
         return paths;
     }
 
-    createPathElement(driver, dimensions, bounds, color) {
+    createPathElement(driver, color) {
         let pathString = "";
         const points = driver.Path;
         
         points.forEach((point, index) => {
-            const { x, y } = CoordinateTransformer.latLonToOffsets(
+            const { x, y } = this.coordinateTransformer.latLngToPoint(
                 point.Latitude,
-                point.Longitude,
-                dimensions.width,
-                dimensions.height,
-                bounds
+                point.Longitude
             );
             
             pathString += index === 0 ? `M ${x},${y}` : ` L ${x},${y}`;

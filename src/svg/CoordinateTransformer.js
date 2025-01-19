@@ -1,24 +1,49 @@
- /* export class CoordinateTransformer {
-    static latLonToOffsets(latitude, longitude, mapWidth, mapHeight, bounds) {
-        const x = mapWidth * (longitude - bounds.minLng) / (bounds.maxLng - bounds.minLng);
-        const y = mapHeight * (1 - (latitude - bounds.minLat) / (bounds.maxLat - bounds.minLat));
+export class CoordinateTransformer {
+    constructor(dimensions, bounds) {
+        this.dimensions = dimensions;
+        this.bounds = bounds;
+
+        const boundsCoords = {
+            min: this.projectPoint(bounds.minLat, bounds.minLng),
+            max: this.projectPoint(bounds.maxLat, bounds.maxLng)
+        };
+
+        this.xScale = dimensions.width / (boundsCoords.max.x - boundsCoords.min.x);
+        this.yScale = dimensions.height / (boundsCoords.max.y - boundsCoords.min.y);
+        
+        this.xOffset = -boundsCoords.min.x * this.xScale;
+        this.yOffset = -boundsCoords.min.y * this.yScale;
+    }
+
+    degreesToRadians(degrees) {
+        return degrees * Math.PI / 180;
+    }
+
+    projectPoint(latitude, longitude) {
+        const FE = 180;
+        const radius = 1;
+        
+        const latRad = this.degreesToRadians(latitude);
+        const lonRad = this.degreesToRadians(longitude + FE);
+        
+        const x = lonRad * radius;
+        const yFromEquator = radius * Math.log(Math.tan(Math.PI / 4 + latRad / 2));
+        const y = yFromEquator;
+
         return { x, y };
     }
-}
- */
-export class CoordinateTransformer {
-    static latLonToOffsets(latitude, longitude, mapWidth, mapHeight, bounds) {
-        if (longitude < bounds.minLng || longitude > bounds.maxLng ||
-            latitude < bounds.minLat || latitude > bounds.maxLat) {
-            console.warn(`Coordinate out of bounds: (${latitude}, ${longitude})`);
+
+    latLngToPoint(latitude, longitude) {
+        if (isNaN(latitude) || isNaN(longitude)) {
+            console.warn('Invalid coordinates:', { latitude, longitude });
+            return null;
         }
-        
-        const normalizedX = (longitude - bounds.minLng) / (bounds.maxLng - bounds.minLng);
-        const normalizedY = 1 - (latitude - bounds.minLat) / (bounds.maxLat - bounds.minLat);
-        
-        const x = Math.round(mapWidth * normalizedX);
-        const y = Math.round(mapHeight * normalizedY);
-        
+
+        const projected = this.projectPoint(latitude, longitude);
+
+        const x = (projected.x * this.xScale + this.xOffset);
+        const y = this.dimensions.height - (projected.y * this.yScale + this.yOffset);
+
         return { x, y };
     }
 } 

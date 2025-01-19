@@ -1,5 +1,3 @@
-import { CoordinateTransformer } from './CoordinateTransformer.js';
-import { PerformanceManager } from '../performance/PerformanceManager.js';
 export class SVGAnimationManager {
     constructor() {
         this.svgElement = null;
@@ -8,15 +6,12 @@ export class SVGAnimationManager {
         this.animationFrameId = null;
         this.isAnimating = false;
         this.groupedPaths = null;
-        this.dimensions = null;
-        this.bounds = null;
         this.performanceManager = null;
     }
 
-    initialize(svgElement, dimensions, bounds, performanceManager) {
+    initialize(svgElement, coordinateTransformer, performanceManager) {
         this.svgElement = svgElement;
-        this.dimensions = dimensions;
-        this.bounds = bounds;
+        this.coordinateTransformer = coordinateTransformer;
         this.performanceManager = performanceManager;
     }
 
@@ -49,12 +44,9 @@ export class SVGAnimationManager {
 
     updateTaxiPosition(driverId, point) {
         const g = this.taxiIcons[driverId];
-        const { x, y } = CoordinateTransformer.latLonToOffsets(
+        const { x, y } = this.coordinateTransformer.latLngToPoint(
             point.Latitude,
-            point.Longitude,
-            this.dimensions.width,
-            this.dimensions.height,
-            this.bounds
+            point.Longitude
         );
         g.setAttribute("transform", `translate(${x}, ${y})`);
     }

@@ -1,4 +1,5 @@
 import {SVGMapManager} from './SVGMapManager.js';
+import { CoordinateTransformer } from './CoordinateTransformer.js';
 import {SVGPathManager} from './SVGPathManager.js';
 import {SVGAnimationManager} from './SVGAnimationManager.js';
 import {LegendManager} from '../common/LegendManager.js'
@@ -14,17 +15,20 @@ export class SVGRenderingManager {
         this.animationManager = new SVGAnimationManager(this.performanceManager);
         this.legendManager = new LegendManager();
         this.animationControlManager = new AnimationControlManager();
-        
+        this.CoordinateTransformer = null;
     }
 
     async initialize() {
         const endInit = this.performanceManager.startMeasure('initialization');       
         await this.mapManager.initialize();
-        this.pathManager.initialize(this.mapManager.getSVGElement());
+        const dimensions = this.mapManager.getDimensions();
+        const bounds = this.mapManager.getBounds();
+        const svgElement = this.mapManager.getSVGElement();
+        this.coordinateTransformer = new CoordinateTransformer(dimensions, bounds); 
+        this.pathManager.initialize(svgElement, this.coordinateTransformer);
         this.animationManager.initialize(
-            this.mapManager.getSVGElement(),
-            this.mapManager.getDimensions(),
-            this.mapManager.getBounds(),
+            svgElement,
+            this.coordinateTransformer,
             this.performanceManager
         );
         this.legendManager.initialize();
@@ -41,9 +45,6 @@ export class SVGRenderingManager {
 
     render() {
         const endRender = this.performanceManager.startMeasure('render');
-
-        const bounds = this.mapManager.getBounds();
-        const dimensions = this.mapManager.getDimensions();
         
         const groupedPaths = this.taxiManager.getGroupedPaths();
         const driverColors = this.taxiManager.getDriverColors();
@@ -56,7 +57,7 @@ export class SVGRenderingManager {
             }))
         }));
 
-        const paths = this.pathManager.createPaths(pathData, dimensions, bounds, driverColors);
+        const paths = this.pathManager.createPaths(pathData, driverColors);
         this.legendManager.updateLegend(driverColors);
         this.animationManager.animateDrivers(paths);
 
