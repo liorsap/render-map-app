@@ -1,0 +1,162 @@
+{
+  "renderer": "svg",
+  "startTime": 1737219126789,
+  "endTime": 1737219165367,
+  "metrics": [
+    {
+      "timestamp": 1737219126789,
+      "rendererType": "svg",
+      "timing": {
+        "initialization": {
+          "start": 9520.799999713898,
+          "duration": 8.200000286102295
+        },
+        "render": {
+          "start": 9521.89999961853,
+          "duration": 5.800000190734863
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 0,
+          "averageTime": 0,
+          "minTime": null,
+          "maxTime": 0
+        },
+        "fps": 0,
+        "updates": {
+          "marker": null,
+          "path": null
+        },
+        "memory": null,
+        "cpu": {
+          "current": 0,
+          "average": 0,
+          "min": 0,
+          "max": 0,
+          "measurements": [],
+          "samplesCount": 0
+        }
+      },
+      "dom": {
+        "svgElements": 153,
+        "mapboxElements": 0,
+        "totalElements": 334
+      }
+    },
+    {
+      "timestamp": 1737219151869,
+      "rendererType": "svg",
+      "timing": {
+        "initialization": {
+          "start": 9520.799999713898,
+          "duration": 8.200000286102295
+        },
+        "render": {
+          "start": 9521.89999961853,
+          "duration": 5.800000190734863
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 60,
+          "averageTime": 0.40166668891906737,
+          "minTime": 0.10000038146972656,
+          "maxTime": 1
+        },
+        "fps": 1.583946996711767,
+        "updates": {
+          "marker": null,
+          "path": {
+            "average": 0.0029999971389770507,
+            "min": 0,
+            "max": 0.09999990463256836,
+            "last100Average": 0.0029999971389770507
+          }
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 10.985955238342285,
+            "min": 10.69091796875,
+            "max": 37.61809253692627,
+            "average": 33.24071294466655
+          },
+          "totalHeap": {
+            "current": 12.890374183654785,
+            "min": 12.890365600585938,
+            "max": 39.698323249816895,
+            "average": 35.26046322186788
+          },
+          "growth": -25.90594482421875
+        },
+        "cpu": {
+          "current": 98.90723460067406,
+          "average": 69.03533807887882,
+          "min": 0.10987912343796147,
+          "max": 98.90723460067406,
+          "measurements": [
+            {
+              "timestamp": 29837.5,
+              "usage": 89.16856338398209,
+              "taskDuration": 1332,
+              "timeWindow": 1493.8000001907349,
+              "source": "longtask"
+            },
+            {
+              "timestamp": 31109.699999809265,
+              "usage": 0.10987912343796147,
+              "frameCount": 60,
+              "fps": 59.934072525937225,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 31572.099999904633,
+              "usage": 19.71636112180347,
+              "taskDuration": 342,
+              "timeWindow": 1734.5999999046326,
+              "source": "longtask"
+            },
+            {
+              "timestamp": 33343.5,
+              "usage": 97.88867561853031,
+              "taskDuration": 1734,
+              "timeWindow": 1771.4000000953674,
+              "source": "longtask"
+            },
+            {
+              "timestamp": 34597.199999809265,
+              "usage": 98.90723460067406,
+              "taskDuration": 1240,
+              "timeWindow": 1253.6999998092651,
+              "source": "longtask"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 4,
+            "frameTiming": 1
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 153,
+        "mapboxElements": 0,
+        "totalElements": 334
+      }
+    }
+  ],
+  "summary": {
+    "totalFrames": 99,
+    "averageFPS": 23.77381603991223,
+    "memoryGrowth": -25.993446350097656,
+    "updateStats": {
+      "marker": null,
+      "path": {
+        "average": 0.003000001907348633,
+        "min": 0,
+        "max": 0.20000028610229492,
+        "last100Average": 0.003000001907348633
+      }
+    }
+  }
+}

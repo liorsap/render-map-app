@@ -1,0 +1,3198 @@
+{
+  "renderer": "mapbox",
+  "startTime": 1737219187806,
+  "endTime": 1737219225292,
+  "metrics": [
+    {
+      "timestamp": 1737219187806,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 0,
+          "averageTime": 0,
+          "minTime": null,
+          "maxTime": 0
+        },
+        "fps": 0,
+        "updates": {
+          "marker": null,
+          "path": null
+        },
+        "memory": null,
+        "cpu": {
+          "current": 52.36090908054346,
+          "average": 52.1801341120249,
+          "min": 51.75832585214827,
+          "max": 52.36090908054346,
+          "measurements": [
+            {
+              "timestamp": 3160.5999999046326,
+              "usage": 51.75832585214827,
+              "frameCount": 29,
+              "fps": 28.94500448871104,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 3465.2999997138977,
+              "usage": 52.36090908054346,
+              "taskDuration": 684.1999988555908,
+              "timeWindow": 1306.6999998092651,
+              "source": "longtask"
+            }
+          ],
+          "samplesCount": 2,
+          "sourcesBreakdown": {
+            "longtask": 1,
+            "frameTiming": 1
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219191916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 60,
+          "averageTime": 2.335000006357829,
+          "minTime": 2,
+          "maxTime": 3.8000001907348633
+        },
+        "fps": 60.132661449910465,
+        "updates": {
+          "marker": {
+            "average": 0.038999996185302734,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.038999996185302734
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 82.98873233795166,
+            "min": 75.5553560256958,
+            "max": 93.79603672027588,
+            "average": 84.8145683924357
+          },
+          "totalHeap": {
+            "current": 131.52099323272705,
+            "min": 131.52099323272705,
+            "max": 131.5632905960083,
+            "average": 131.56188068389892
+          },
+          "growth": 7.433376312255859
+        },
+        "cpu": {
+          "current": 0.013113006222320589,
+          "average": 27.46845622247957,
+          "min": 0,
+          "max": 52.36090908054346,
+          "measurements": [
+            {
+              "timestamp": 3160.5999999046326,
+              "usage": 51.75832585214827,
+              "frameCount": 29,
+              "fps": 28.94500448871104,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 3465.2999997138977,
+              "usage": 52.36090908054346,
+              "taskDuration": 684.1999988555908,
+              "timeWindow": 1306.6999998092651,
+              "source": "longtask"
+            },
+            {
+              "timestamp": 5160.900000095367,
+              "usage": 0.01999602939862788,
+              "frameCount": 60,
+              "fps": 59.988002382360825,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 6177.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393468987057,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 7194.299999713898,
+              "usage": 0.013113006222320589,
+              "frameCount": 61,
+              "fps": 59.99213219626661,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 1,
+            "frameTiming": 4
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219192916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 120,
+          "averageTime": 2.3508333126703898,
+          "minTime": 1.9000000953674316,
+          "maxTime": 5.399999618530273
+        },
+        "fps": 59.990921031798784,
+        "updates": {
+          "marker": {
+            "average": 0.036999998092651365,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.036999998092651365
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 102.45549488067627,
+            "min": 75.5553560256958,
+            "max": 102.45549488067627,
+            "average": 88.83267761866252
+          },
+          "totalHeap": {
+            "current": 131.52099323272705,
+            "min": 131.52099323272705,
+            "max": 131.5632905960083,
+            "average": 131.541436958313
+          },
+          "growth": 26.90013885498047
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.008277258905237117,
+          "min": 0,
+          "max": 0.01999602939862788,
+          "measurements": [
+            {
+              "timestamp": 5160.900000095367,
+              "usage": 0.01999602939862788,
+              "frameCount": 60,
+              "fps": 59.988002382360825,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 6177.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393468987057,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 7194.299999713898,
+              "usage": 0.013113006222320589,
+              "frameCount": 61,
+              "fps": 59.99213219626661,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 8210.900000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393466172567,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 4,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 4
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219193916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 180,
+          "averageTime": 2.338333323266771,
+          "minTime": 1.9000000953674316,
+          "maxTime": 5.399999618530273
+        },
+        "fps": 60.05300683452823,
+        "updates": {
+          "marker": {
+            "average": 0.03800000190734863,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.03800000190734863
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 109.04695987701416,
+            "min": 75.5553560256958,
+            "max": 109.04695987701416,
+            "average": 93.90611521402995
+          },
+          "totalHeap": {
+            "current": 136.52099323272705,
+            "min": 131.52099323272705,
+            "max": 136.52099323272705,
+            "average": 131.95823349422878
+          },
+          "growth": 33.49160385131836
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.006621807124189694,
+          "min": 0,
+          "max": 0.01999602939862788,
+          "measurements": [
+            {
+              "timestamp": 5160.900000095367,
+              "usage": 0.01999602939862788,
+              "frameCount": 60,
+              "fps": 59.988002382360825,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 6177.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393468987057,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 7194.299999713898,
+              "usage": 0.013113006222320589,
+              "frameCount": 61,
+              "fps": 59.99213219626661,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 8210.900000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393466172567,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 9227.199999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02164716832858,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219194916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 240,
+          "averageTime": 2.412499996026357,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 64.5485067262288,
+        "updates": {
+          "marker": {
+            "average": 0.08199999809265136,
+            "min": 0,
+            "max": 3.8000001907348633,
+            "last100Average": 0.08199999809265136
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 58.63354015350342,
+            "min": 47.95059108734131,
+            "max": 116.55759143829346,
+            "average": 89.92085464000702
+          },
+          "totalHeap": {
+            "current": 140.47434520721436,
+            "min": 131.52099323272705,
+            "max": 140.52099323272705,
+            "average": 133.90357892513276
+          },
+          "growth": -16.921815872192383
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.002622601244464118,
+          "min": 0,
+          "max": 0.013113006222320589,
+          "measurements": [
+            {
+              "timestamp": 6177.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393468987057,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 7194.299999713898,
+              "usage": 0.013113006222320589,
+              "frameCount": 61,
+              "fps": 59.99213219626661,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 8210.900000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393466172567,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 9227.199999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02164716832858,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 10243.400000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219195916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 300,
+          "averageTime": 2.446333333651225,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.03225995575495,
+        "updates": {
+          "marker": {
+            "average": 0.05100000381469726,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.05100000381469726
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 44.440707206726074,
+            "min": 44.440707206726074,
+            "max": 116.55759143829346,
+            "average": 85.37483706792196
+          },
+          "totalHeap": {
+            "current": 120.0502576828003,
+            "min": 120.0502576828003,
+            "max": 140.52099323272705,
+            "average": 135.14965188980102
+          },
+          "growth": -31.114648818969727
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.002622601244464118,
+          "min": 0,
+          "max": 0.013113006222320589,
+          "measurements": [
+            {
+              "timestamp": 7194.299999713898,
+              "usage": 0.013113006222320589,
+              "frameCount": 61,
+              "fps": 59.99213219626661,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 8210.900000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393466172567,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 9227.199999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02164716832858,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 10243.400000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 11243.400000095367,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219196916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 360,
+          "averageTime": 2.472777779897054,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.00075172640167,
+        "updates": {
+          "marker": {
+            "average": 0.04699999809265137,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.04699999809265137
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 62.50322246551514,
+            "min": 44.440707206726074,
+            "max": 116.55759143829346,
+            "average": 79.12693045934041
+          },
+          "totalHeap": {
+            "current": 120.0502576828003,
+            "min": 120.0502576828003,
+            "max": 140.52099323272705,
+            "average": 132.8473272895813
+          },
+          "growth": -20.485509872436523
+        },
+        "cpu": {
+          "current": 0.02999097410611995,
+          "average": 0.00599819482122399,
+          "min": 0,
+          "max": 0.02999097410611995,
+          "measurements": [
+            {
+              "timestamp": 8210.900000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00393466172567,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 9227.199999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02164716832858,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 10243.400000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 11243.400000095367,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 12243.699999809265,
+              "usage": 0.02999097410611995,
+              "frameCount": 60,
+              "fps": 59.98200541553633,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219197916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 420,
+          "averageTime": 2.5038095224471317,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.04300262177843,
+        "updates": {
+          "marker": {
+            "average": 0.050999994277954104,
+            "min": 0,
+            "max": 0.3000001907348633,
+            "last100Average": 0.050999994277954104
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 69.62960720062256,
+            "min": 44.440707206726074,
+            "max": 116.55759143829346,
+            "average": 73.58352861404418
+          },
+          "totalHeap": {
+            "current": 120.0502576828003,
+            "min": 120.0502576828003,
+            "max": 140.52099323272705,
+            "average": 130.55318017959596
+          },
+          "growth": -32.82588768005371
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.00599819482122399,
+          "min": 0,
+          "max": 0.02999097410611995,
+          "measurements": [
+            {
+              "timestamp": 9227.199999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02164716832858,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 10243.400000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 11243.400000095367,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 12243.699999809265,
+              "usage": 0.02999097410611995,
+              "frameCount": 60,
+              "fps": 59.98200541553633,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 13259.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219198915,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 480,
+          "averageTime": 2.5304166624943414,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.03924666541137,
+        "updates": {
+          "marker": {
+            "average": 0.045000004768371585,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.045000004768371585
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 75.89851665496826,
+            "min": 44.440707206726074,
+            "max": 116.55759143829346,
+            "average": 68.28298447291057
+          },
+          "totalHeap": {
+            "current": 120.0502576828003,
+            "min": 120.0502576828003,
+            "max": 140.52099323272705,
+            "average": 128.00486640294392
+          },
+          "growth": -33.1484432220459
+        },
+        "cpu": {
+          "current": 0.04997501249375258,
+          "average": 0.015993197319974506,
+          "min": 0,
+          "max": 0.04997501249375258,
+          "measurements": [
+            {
+              "timestamp": 10243.400000095367,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 11243.400000095367,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 12243.699999809265,
+              "usage": 0.02999097410611995,
+              "frameCount": 60,
+              "fps": 59.98200541553633,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 13259.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 14259.799999713898,
+              "usage": 0.04997501249375258,
+              "frameCount": 60,
+              "fps": 59.97001499250375,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219199916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 540,
+          "averageTime": 2.5688888867696127,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 61.793178427830654,
+        "updates": {
+          "marker": {
+            "average": 0.049000000953674315,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.049000000953674315
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 38.17567825317383,
+            "min": 28.48996353149414,
+            "max": 85.83590602874756,
+            "average": 63.70899359385172
+          },
+          "totalHeap": {
+            "current": 115.79995346069336,
+            "min": 115.79995346069336,
+            "max": 140.47434520721436,
+            "average": 123.61362911224366
+          },
+          "growth": -20.45786190032959
+        },
+        "cpu": {
+          "current": 0.02999102176123314,
+          "average": 0.021991401672221134,
+          "min": 0,
+          "max": 0.04997501249375258,
+          "measurements": [
+            {
+              "timestamp": 11243.400000095367,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 12243.699999809265,
+              "usage": 0.02999097410611995,
+              "frameCount": 60,
+              "fps": 59.98200541553633,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 13259.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 14259.799999713898,
+              "usage": 0.04997501249375258,
+              "frameCount": 60,
+              "fps": 59.97001499250375,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 15260.099999904633,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219200915,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 600,
+          "averageTime": 2.5973333303133646,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.050903204108366,
+        "updates": {
+          "marker": {
+            "average": 0.04699999332427979,
+            "min": 0,
+            "max": 0.3000001907348633,
+            "last100Average": 0.04699999332427979
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 56.19601058959961,
+            "min": 28.48996353149414,
+            "max": 85.83590602874756,
+            "average": 59.729264450073245
+          },
+          "totalHeap": {
+            "current": 115.79995346069336,
+            "min": 115.79995346069336,
+            "max": 120.0502576828003,
+            "average": 118.7468310546875
+          },
+          "growth": 11.755303382873535
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.021991401672221134,
+          "min": 0,
+          "max": 0.04997501249375258,
+          "measurements": [
+            {
+              "timestamp": 12243.699999809265,
+              "usage": 0.02999097410611995,
+              "frameCount": 60,
+              "fps": 59.98200541553633,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 13259.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 14259.799999713898,
+              "usage": 0.04997501249375258,
+              "frameCount": 60,
+              "fps": 59.97001499250375,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 15260.099999904633,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 16275.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219201915,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 660,
+          "averageTime": 2.605757570989204,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.023752534316806,
+        "updates": {
+          "marker": {
+            "average": 0.047000002861022946,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.047000002861022946
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 62.28382110595703,
+            "min": 28.48996353149414,
+            "max": 85.83590602874756,
+            "average": 59.69311087290446
+          },
+          "totalHeap": {
+            "current": 115.79995346069336,
+            "min": 115.79995346069336,
+            "max": 120.0502576828003,
+            "average": 117.89677021026611
+          },
+          "growth": -1.2011175155639648
+        },
+        "cpu": {
+          "current": 0.03998401592656409,
+          "average": 0.02399001003630996,
+          "min": 0,
+          "max": 0.04997501249375258,
+          "measurements": [
+            {
+              "timestamp": 13259.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 14259.799999713898,
+              "usage": 0.04997501249375258,
+              "frameCount": 60,
+              "fps": 59.97001499250375,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 15260.099999904633,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 16275.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 17276.099999904633,
+              "usage": 0.03998401592656409,
+              "frameCount": 60,
+              "fps": 59.976009590444065,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219202916,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 720,
+          "averageTime": 2.615833326180776,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.01156244797411,
+        "updates": {
+          "marker": {
+            "average": 0.046000003814697266,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.046000003814697266
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 69.35279846191406,
+            "min": 28.48996353149414,
+            "max": 85.83590602874756,
+            "average": 59.770450286865234
+          },
+          "totalHeap": {
+            "current": 115.79995346069336,
+            "min": 115.79995346069336,
+            "max": 120.0502576828003,
+            "average": 117.04670936584472
+          },
+          "growth": -0.2768087387084961
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.02399001003630996,
+          "min": 0,
+          "max": 0.04997501249375258,
+          "measurements": [
+            {
+              "timestamp": 14259.799999713898,
+              "usage": 0.04997501249375258,
+              "frameCount": 60,
+              "fps": 59.97001499250375,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 15260.099999904633,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 16275.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 17276.099999904633,
+              "usage": 0.03998401592656409,
+              "frameCount": 60,
+              "fps": 59.976009590444065,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 18276.099999904633,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219203914,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 780,
+          "averageTime": 2.630897430273203,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.071504769607586,
+        "updates": {
+          "marker": {
+            "average": 0.0440000057220459,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.0440000057220459
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 75.5366439819336,
+            "min": 28.48996353149414,
+            "max": 86.40082931518555,
+            "average": 59.86689219156901
+          },
+          "totalHeap": {
+            "current": 115.79995346069336,
+            "min": 115.79995346069336,
+            "max": 120.0502576828003,
+            "average": 116.19664852142334
+          },
+          "growth": -0.36187267303466797
+        },
+        "cpu": {
+          "current": 0.0032785622705588935,
+          "average": 0.014650719991671224,
+          "min": 0,
+          "max": 0.03998401592656409,
+          "measurements": [
+            {
+              "timestamp": 15260.099999904633,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 16275.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 17276.099999904633,
+              "usage": 0.03998401592656409,
+              "frameCount": 60,
+              "fps": 59.976009590444065,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 18276.099999904633,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 19292.799999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219204915,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 840,
+          "averageTime": 2.652380947271983,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 61.67363356581402,
+        "updates": {
+          "marker": {
+            "average": 0.045,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.045
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 36.04954147338867,
+            "min": 27.917400360107422,
+            "max": 86.40082931518555,
+            "average": 60.40682234446208
+          },
+          "totalHeap": {
+            "current": 116.04995346069336,
+            "min": 115.79995346069336,
+            "max": 116.04995346069336,
+            "average": 115.82328679402669
+          },
+          "growth": -2.1261367797851562
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.008652515639424596,
+          "min": 0,
+          "max": 0.03998401592656409,
+          "measurements": [
+            {
+              "timestamp": 16275.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 17276.099999904633,
+              "usage": 0.03998401592656409,
+              "frameCount": 60,
+              "fps": 59.976009590444065,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 18276.099999904633,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 19292.799999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 20292.799999713898,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219205915,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 900,
+          "averageTime": 2.655666660732693,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.0284473396989,
+        "updates": {
+          "marker": {
+            "average": 0.046000003814697266,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.046000003814697266
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 54.948787689208984,
+            "min": 27.917400360107422,
+            "max": 86.40082931518555,
+            "average": 60.03553613026937
+          },
+          "totalHeap": {
+            "current": 116.04995346069336,
+            "min": 115.79995346069336,
+            "max": 116.04995346069336,
+            "average": 115.8732867940267
+          },
+          "growth": 10.261482238769531
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.008652515639424596,
+          "min": 0,
+          "max": 0.03998401592656409,
+          "measurements": [
+            {
+              "timestamp": 17276.099999904633,
+              "usage": 0.03998401592656409,
+              "frameCount": 60,
+              "fps": 59.976009590444065,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 18276.099999904633,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 19292.799999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 20292.799999713898,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 21309.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.021647140167055,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219207797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 960,
+          "averageTime": 2.6486458251873652,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 62.62059256994827,
+        "updates": {
+          "marker": {
+            "average": 0.03800000190734863,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.03800000190734863
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 61.09908103942871,
+            "min": 27.917400360107422,
+            "max": 86.40082931518555,
+            "average": 59.954373035430905
+          },
+          "totalHeap": {
+            "current": 116.05000877380371,
+            "min": 115.79995346069336,
+            "max": 116.05000877380371,
+            "average": 115.9232942390442
+          },
+          "growth": -2.166604995727539
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.0006557124541117787,
+          "min": 0,
+          "max": 0.0032785622705588935,
+          "measurements": [
+            {
+              "timestamp": 19292.799999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 20292.799999713898,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 21309.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.021647140167055,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 22325.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.015741828292455,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 23341.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755364244179,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219208797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1020,
+          "averageTime": 2.63009803388633,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.02569263472406,
+        "updates": {
+          "marker": {
+            "average": 0.036000003814697264,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.036000003814697264
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 66.90866661071777,
+            "min": 27.917400360107422,
+            "max": 86.40082931518555,
+            "average": 59.86934810002645
+          },
+          "totalHeap": {
+            "current": 116.05000877380371,
+            "min": 115.79995346069336,
+            "max": 116.05000877380371,
+            "average": 115.97330530166626
+          },
+          "growth": -2.444131851196289
+        },
+        "cpu": {
+          "current": 0.02999102176123314,
+          "average": 0.005998204352246628,
+          "min": 0,
+          "max": 0.02999102176123314,
+          "measurements": [
+            {
+              "timestamp": 20292.799999713898,
+              "usage": 0,
+              "frameCount": 60,
+              "fps": 60,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 21309.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.021647140167055,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 22325.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.015741828292455,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 23341.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755364244179,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 24342,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219209797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1080,
+          "averageTime": 2.611018512867115,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.199999809265137
+        },
+        "fps": 60.04639788197795,
+        "updates": {
+          "marker": {
+            "average": 0.04200000286102295,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.04200000286102295
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 85.47980308532715,
+            "min": 27.917400360107422,
+            "max": 85.47980308532715,
+            "average": 59.5771989885966
+          },
+          "totalHeap": {
+            "current": 116.05000877380371,
+            "min": 115.79995346069336,
+            "max": 116.05000877380371,
+            "average": 116.02331636428833
+          },
+          "growth": 9.943159103393555
+        },
+        "cpu": {
+          "current": 0.0032785622705588935,
+          "average": 0.006653916806358406,
+          "min": 0,
+          "max": 0.02999102176123314,
+          "measurements": [
+            {
+              "timestamp": 21309.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.021647140167055,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 22325.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.015741828292455,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 23341.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755364244179,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 24342,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 25358.699999809265,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219210797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1140,
+          "averageTime": 2.6075438541278504,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.433553572395326,
+        "updates": {
+          "marker": {
+            "average": 0.03999999523162842,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.03999999523162842
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 33.871954917907715,
+            "min": 28.55775737762451,
+            "max": 86.76410102844238,
+            "average": 61.30141493479411
+          },
+          "totalHeap": {
+            "current": 116.2999677658081,
+            "min": 116.04995346069336,
+            "max": 116.2999677658081,
+            "average": 116.06499163309734
+          },
+          "growth": -2.177586555480957
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.006653916806358406,
+          "min": 0,
+          "max": 0.02999102176123314,
+          "measurements": [
+            {
+              "timestamp": 22325.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.015741828292455,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 23341.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755364244179,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 24342,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 25358.699999809265,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 26374.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219211797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1200,
+          "averageTime": 2.590833327770233,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.01081617596424,
+        "updates": {
+          "marker": {
+            "average": 0.03800000190734863,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.03800000190734863
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 52.143126487731934,
+            "min": 28.55775737762451,
+            "max": 86.76410102844238,
+            "average": 60.805246620178224
+          },
+          "totalHeap": {
+            "current": 116.2999677658081,
+            "min": 116.04995346069336,
+            "max": 116.2999677658081,
+            "average": 116.11499449412028
+          },
+          "growth": -2.805661201477051
+        },
+        "cpu": {
+          "current": 0.059964059688288884,
+          "average": 0.018646728744016183,
+          "min": 0,
+          "max": 0.059964059688288884,
+          "measurements": [
+            {
+              "timestamp": 23341.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755364244179,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 24342,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 25358.699999809265,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 26374.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 27374.900000095367,
+              "usage": 0.059964059688288884,
+              "frameCount": 60,
+              "fps": 59.96402156418703,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219212797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1260,
+          "averageTime": 2.576587298181322,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.01958962062336,
+        "updates": {
+          "marker": {
+            "average": 0.04200000286102295,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.04200000286102295
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 58.47980785369873,
+            "min": 28.55775737762451,
+            "max": 86.76410102844238,
+            "average": 60.507968476613364
+          },
+          "totalHeap": {
+            "current": 116.2999677658081,
+            "min": 116.05000877380371,
+            "max": 116.2999677658081,
+            "average": 116.16498991012573
+          },
+          "growth": -2.6192731857299805
+        },
+        "cpu": {
+          "current": 0.0032785622705588935,
+          "average": 0.019302441198127962,
+          "min": 0,
+          "max": 0.059964059688288884,
+          "measurements": [
+            {
+              "timestamp": 24342,
+              "usage": 0.02999102176123314,
+              "frameCount": 60,
+              "fps": 59.98200538694326,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 25358.699999809265,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 26374.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 27374.900000095367,
+              "usage": 0.059964059688288884,
+              "frameCount": 60,
+              "fps": 59.96402156418703,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 28391.599999904633,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219213797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1320,
+          "averageTime": 2.566439391627456,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.02351662827063,
+        "updates": {
+          "marker": {
+            "average": 0.03900000095367431,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.03900000095367431
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 64.86375331878662,
+            "min": 28.55775737762451,
+            "max": 86.76410102844238,
+            "average": 60.387989101409914
+          },
+          "totalHeap": {
+            "current": 116.2999677658081,
+            "min": 116.05000877380371,
+            "max": 116.2999677658081,
+            "average": 116.21498170852661
+          },
+          "growth": -2.0449132919311523
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.013304236845881334,
+          "min": 0,
+          "max": 0.059964059688288884,
+          "measurements": [
+            {
+              "timestamp": 25358.699999809265,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 26374.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 27374.900000095367,
+              "usage": 0.059964059688288884,
+              "frameCount": 60,
+              "fps": 59.96402156418703,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 28391.599999904633,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 29408.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219214797,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1380,
+          "averageTime": 2.557826083984928,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.05917705220223,
+        "updates": {
+          "marker": {
+            "average": 0.0390000057220459,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.0390000057220459
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 83.43190670013428,
+            "min": 28.55775737762451,
+            "max": 86.76410102844238,
+            "average": 59.857571074167886
+          },
+          "totalHeap": {
+            "current": 116.2999677658081,
+            "min": 116.05000877380371,
+            "max": 116.2999677658081,
+            "average": 116.26497350692749
+          },
+          "growth": -2.047896385192871
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.012648524391769556,
+          "min": 0,
+          "max": 0.059964059688288884,
+          "measurements": [
+            {
+              "timestamp": 26374.299999713898,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.06301694144157,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 27374.900000095367,
+              "usage": 0.059964059688288884,
+              "frameCount": 60,
+              "fps": 59.96402156418703,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 28391.599999904633,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 29408.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 30424.599999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219215796,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1440,
+          "averageTime": 2.5517361091242896,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 61.5371345411103,
+        "updates": {
+          "marker": {
+            "average": 0.04199999809265137,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.04199999809265137
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 31.066641807556152,
+            "min": 28.873831748962402,
+            "max": 86.56330394744873,
+            "average": 61.41630911509196
+          },
+          "totalHeap": {
+            "current": 116.5499677658081,
+            "min": 116.2999677658081,
+            "max": 116.5499677658081,
+            "average": 116.3074677658081
+          },
+          "growth": -2.8053131103515625
+        },
+        "cpu": {
+          "current": 0.0032785622705588935,
+          "average": 0.013304236845881334,
+          "min": 0,
+          "max": 0.059964059688288884,
+          "measurements": [
+            {
+              "timestamp": 27374.900000095367,
+              "usage": 0.059964059688288884,
+              "frameCount": 60,
+              "fps": 59.96402156418703,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 28391.599999904633,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 29408.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 30424.599999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 31441.299999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219216796,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1500,
+          "averageTime": 2.5405333344141643,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 59.96436779354038,
+        "updates": {
+          "marker": {
+            "average": 0.03800000190734863,
+            "min": 0,
+            "max": 0.20000028610229492,
+            "last100Average": 0.03800000190734863
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 49.70485591888428,
+            "min": 28.873831748962402,
+            "max": 86.56330394744873,
+            "average": 60.92227419535319
+          },
+          "totalHeap": {
+            "current": 116.5499677658081,
+            "min": 116.2999677658081,
+            "max": 116.5499677658081,
+            "average": 116.35746776580811
+          },
+          "growth": -2.4382705688476562
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.0013114249082235574,
+          "min": 0,
+          "max": 0.0032785622705588935,
+          "measurements": [
+            {
+              "timestamp": 28391.599999904633,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 29408.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 30424.599999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 31441.299999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 32457.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219217796,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1560,
+          "averageTime": 2.532307694508479,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.04478275195716,
+        "updates": {
+          "marker": {
+            "average": 0.04099999904632568,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.04099999904632568
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 55.142611503601074,
+            "min": 28.873831748962402,
+            "max": 86.56330394744873,
+            "average": 60.76288959503174
+          },
+          "totalHeap": {
+            "current": 116.5499677658081,
+            "min": 116.2999677658081,
+            "max": 116.5499677658081,
+            "average": 116.40746776580811
+          },
+          "growth": -3.3371963500976562
+        },
+        "cpu": {
+          "current": 0.019995981733988977,
+          "average": 0.004654908800909574,
+          "min": 0,
+          "max": 0.019995981733988977,
+          "measurements": [
+            {
+              "timestamp": 29408.099999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 30424.599999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 31441.299999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 32457.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 33457.699999809265,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219218796,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1620,
+          "averageTime": 2.5404321014145275,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.056607470509945,
+        "updates": {
+          "marker": {
+            "average": 0.04299999713897705,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.04299999713897705
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 62.378676414489746,
+            "min": 28.873831748962402,
+            "max": 86.56330394744873,
+            "average": 60.52644645690918
+          },
+          "totalHeap": {
+            "current": 116.5499677658081,
+            "min": 116.2999677658081,
+            "max": 116.5499677658081,
+            "average": 116.4574677658081
+          },
+          "growth": -2.485076904296875
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.004654908800909574,
+          "min": 0,
+          "max": 0.019995981733988977,
+          "measurements": [
+            {
+              "timestamp": 30424.599999904633,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.00983767830792,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 31441.299999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 32457.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 33457.699999809265,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 34473.59999990463,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.045280041612,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219219796,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1680,
+          "averageTime": 2.5310119086787815,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.017726790898585,
+        "updates": {
+          "marker": {
+            "average": 0.03700000286102295,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.03700000286102295
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 80.63601207733154,
+            "min": 28.873831748962402,
+            "max": 86.56330394744873,
+            "average": 60.03227947235107
+          },
+          "totalHeap": {
+            "current": 116.5499677658081,
+            "min": 116.2999677658081,
+            "max": 116.5499677658081,
+            "average": 116.5074677658081
+          },
+          "growth": -2.7958946228027344
+        },
+        "cpu": {
+          "current": 0.019995981733988977,
+          "average": 0.00865410514770737,
+          "min": 0,
+          "max": 0.019995981733988977,
+          "measurements": [
+            {
+              "timestamp": 31441.299999713898,
+              "usage": 0.0032785622705588935,
+              "frameCount": 61,
+              "fps": 59.998032862637665,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 32457.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 33457.699999809265,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 34473.59999990463,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.045280041612,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 35473.7999997139,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219220795,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1740,
+          "averageTime": 2.5287931072300878,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 60.45850013862026,
+        "updates": {
+          "marker": {
+            "average": 0.045999999046325686,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.045999999046325686
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 27.91891384124756,
+            "min": 27.91891384124756,
+            "max": 86.23904705047607,
+            "average": 60.78857840220133
+          },
+          "totalHeap": {
+            "current": 116.7999677658081,
+            "min": 116.5499677658081,
+            "max": 116.7999677658081,
+            "average": 116.55330109914144
+          },
+          "growth": -3.1477279663085938
+        },
+        "cpu": {
+          "current": 0,
+          "average": 0.00799839269359559,
+          "min": 0,
+          "max": 0.019995981733988977,
+          "measurements": [
+            {
+              "timestamp": 32457.5,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.02755361427473,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 33457.699999809265,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 34473.59999990463,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.045280041612,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 35473.7999997139,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 36489.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.045280041612,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    },
+    {
+      "timestamp": 1737219221796,
+      "rendererType": "mapbox",
+      "timing": {
+        "initialization": {
+          "start": 2158.9000000953674,
+          "duration": 1361.5
+        },
+        "render": {
+          "start": 3498.5999999046326,
+          "duration": 19.40000009536743
+        },
+        "marker-creation": {
+          "start": 3509.7999997138977,
+          "duration": 8
+        }
+      },
+      "animation": {
+        "frameStats": {
+          "total": 1800,
+          "averageTime": 2.5215000020133123,
+          "minTime": 1.9000000953674316,
+          "maxTime": 6.699999809265137
+        },
+        "fps": 59.998378538504376,
+        "updates": {
+          "marker": {
+            "average": 0.03900000095367431,
+            "min": 0,
+            "max": 0.19999980926513672,
+            "last100Average": 0.03900000095367431
+          },
+          "path": null
+        },
+        "memory": {
+          "usedHeap": {
+            "current": 47.21277904510498,
+            "min": 27.91891384124756,
+            "max": 86.23904705047607,
+            "average": 60.304520250956216
+          },
+          "totalHeap": {
+            "current": 116.7999677658081,
+            "min": 116.5499677658081,
+            "max": 116.7999677658081,
+            "average": 116.60330109914143
+          },
+          "growth": -2.492076873779297
+        },
+        "cpu": {
+          "current": 0.07993607020206905,
+          "average": 0.0239856067340094,
+          "min": 0,
+          "max": 0.07993607020206905,
+          "measurements": [
+            {
+              "timestamp": 33457.699999809265,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 34473.59999990463,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.045280041612,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 35473.7999997139,
+              "usage": 0.019995981733988977,
+              "frameCount": 60,
+              "fps": 59.98800241095961,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 36489.699999809265,
+              "usage": 0,
+              "frameCount": 61,
+              "fps": 60.045280041612,
+              "source": "frame-timing"
+            },
+            {
+              "timestamp": 37490.5,
+              "usage": 0.07993607020206905,
+              "frameCount": 60,
+              "fps": 59.952038357878756,
+              "source": "frame-timing"
+            }
+          ],
+          "samplesCount": 5,
+          "sourcesBreakdown": {
+            "longtask": 0,
+            "frameTiming": 5
+          }
+        }
+      },
+      "dom": {
+        "svgElements": 0,
+        "mapboxElements": 51,
+        "totalElements": 253
+      }
+    }
+  ],
+  "summary": {
+    "totalFrames": 1809,
+    "averageFPS": 59.99585100218084,
+    "memoryGrowth": -3.404510498046875,
+    "updateStats": {
+      "marker": {
+        "average": 0.04399999618530273,
+        "min": 0,
+        "max": 0.40000009536743164,
+        "last100Average": 0.04399999618530273
+      },
+      "path": null
+    }
+  }
+}
