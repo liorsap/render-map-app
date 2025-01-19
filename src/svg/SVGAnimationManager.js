@@ -110,7 +110,7 @@ export class SVGAnimationManager {
                 this.updateTaxiPosition(driverId, interpolatedPoint);
             });
             
-            this.animationProgress[driverId] = (progress + 0.0005) % 1;
+            this.animationProgress[driverId] = (progress + 0.005) % 1;
         });
     
         endFrame();
