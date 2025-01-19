@@ -51,13 +51,11 @@ export class PerformanceManager {
         callback();
         const duration = performance.now() - start;
 
-        // Store the update time
         this.animationMetrics.updateTimes[type].push({
             timestamp: start,
             duration: duration
         });
 
-        // Keep only last 100 readings
         if (this.animationMetrics.updateTimes[type].length > 100) {
             this.animationMetrics.updateTimes[type].shift();
         }
@@ -96,7 +94,6 @@ export class PerformanceManager {
         this.animationMetrics.maxFrameTime = Math.max(this.animationMetrics.maxFrameTime, frameDuration);
         this.animationMetrics.minFrameTime = Math.min(this.animationMetrics.minFrameTime, frameDuration);
 
-        // Calculate FPS
         if (this.animationMetrics.lastTimestamp) {
             const timeElapsed = frameStart - this.animationMetrics.lastTimestamp;
             const fps = 1000 / timeElapsed;
@@ -107,7 +104,6 @@ export class PerformanceManager {
                 frameDuration: frameDuration
             });
 
-            // Keep only last second of readings
             const oneSecondAgo = frameStart - 1000;
             this.animationMetrics.fpsReadings = this.animationMetrics.fpsReadings.filter(
                 reading => reading.timestamp > oneSecondAgo
@@ -186,7 +182,6 @@ export class PerformanceManager {
                             source: 'longtask'
                         });
 
-                        // Reset for next window
                         this.cpuMetrics.lastSampleTime = now;
                         this.cpuMetrics.totalTaskDuration = 0;
                     }
@@ -199,7 +194,6 @@ export class PerformanceManager {
 
                 observer.observe({ entryTypes: ['longtask', 'resource', 'measure'] });
 
-                // Start supplementary frame-based monitoring
                 this.startPeriodicSampling();
                 console.log('Using combined CPU monitoring (PerformanceObserver + frame timing)');
             } else {
@@ -221,7 +215,6 @@ export class PerformanceManager {
             const elapsed = now - lastFrameTime;
             frameCount++;
 
-            // Take a sample every second
             if (elapsed >= 1000) {
                 const fps = (frameCount * 1000) / elapsed;
                 const cpuLoad = Math.min(100 * (1 - fps / 60), 100);
@@ -264,10 +257,9 @@ export class PerformanceManager {
             frameCount++;
             totalFrameTime += frameDuration;
 
-            // Calculate metrics every second
             if (totalFrameTime >= 1000) {
                 const averageFrameTime = totalFrameTime / frameCount;
-                const targetFrameTime = 1000 / 60; // 60 FPS target
+                const targetFrameTime = 1000 / 60; 
                 const estimatedLoad = (averageFrameTime / targetFrameTime) * 100;
 
                 this.cpuMetrics.measurements.push({
@@ -277,7 +269,6 @@ export class PerformanceManager {
                     averageFrameTime
                 });
 
-                // Reset counters
                 frameCount = 0;
                 totalFrameTime = 0;
 
@@ -324,7 +315,6 @@ export class PerformanceManager {
             };
         }
 
-        // Calculate weighted average based on measurement source
         const weightedUsages = recentMeasurements.map(m => ({
             usage: m.usage,
             weight: m.source === 'longtask' ? 0.7 : 0.3
